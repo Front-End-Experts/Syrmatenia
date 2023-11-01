@@ -1,0 +1,27 @@
+body{
+    font-family: Tahoma, "Lucida Grande", "Lucida Sans Unicode", "Dejavu Sans", Verdana, sans-serif ;    
+}
+#container{
+    text-align: center; 
+    margin: 20px auto 0 auto;
+    width: 80%;
+}
+img{
+    border-radius: 10px;
+}
+p{
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+    line-height: 1.5;    
+}
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+  }  
+footer{
+    font-size: 13px;
+    color: gray;
+    padding-bottom: 20px;
+}

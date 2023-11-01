@@ -1,0 +1,53 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+#main-menu{
+	background: grey;
+	overflow: hidden;
+	list-style: none;
+}
+#main-menu li a {/* Style elements that are descendants of another element */
+	display: inline-block;/*this way the padding top and bottom are aplied*/	
+	color: black;/* b.text color navigation items*/
+	text-decoration: none;		
+}	
+#main-menu li a:link, #main-menu li a:visited{
+	padding:20px;
+}
+#main-menu li a:hover, #main-menu li a:focus, #main-menu li a:active {/* hover effect*/	
+	color: white;
+	font-weight: bold;	
+	background: black;
+	transition: color 0.3s ease-in-out, background 0.3s ease-in-out; /* Smooth transition for color and background on hover */
+	transform: scale(1.1);
+}
+#main-menu li{ 	
+	text-transform: uppercase;
+	float: left;
+	border-right: 2px solid black;
+}
+#main-menu > li {
+    opacity: 0.8 /* g.Style elements that are direct children of another element */
+}
+#main-menu li:first-child a{
+	color:aqua;
+}
+
+	
